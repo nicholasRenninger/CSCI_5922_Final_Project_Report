@@ -76,16 +76,6 @@ title = {{Counterexample-guided strategy improvement for POMDPs using recurrent 
 volume = {2019-Augus},
 year = {2019}
 }
-@techreport{Weiss2018,
-abstract = {We present a novel algorithm that uses exact learning and abstraction to extract a deterministic finite automaton describing the state dynamics of a given trained RNN. We do this using Angluin's L * algorithm as a learner and the trained RNN as an oracle. Our technique efficiently extracts accurate automata from trained RNNs, even when the state vectors are large and require fine differentiation.},
-archivePrefix = {arXiv},
-arxivId = {1711.09576v3},
-author = {Weiss, Gail and Goldberg, Yoav and Yahav, Eran},
-eprint = {1711.09576v3},
-file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2018/Weiss, Goldberg, Yahav/Weiss, Goldberg, Yahav - 2018 - Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples.pdf:pdf},
-title = {{Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples}},
-year = {2018}
-}
 @article{Michalenko2019RepresentingFL,
 author = {Michalenko, Joshua J and Shah, Ameesh and Verma, Abhinav and Baraniuk, Richard G and Chaudhuri, Swarat and Patel, Ankit B},
 file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2019/Michalenko et al/representing formal languages- a comparison between finite automata and recurrent neural networks.pdf:pdf},
@@ -182,4 +172,181 @@ title = {{Grammatical Inference: Learning Automata and Grammars}},
 publisher = {Cambridge University Press},
 address = {New York, NY, USA},
 year = {2013}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@inproceedings{Ho2016GenerativeAI,
+author = {Ho, Jonathan and Ermon, Stefano},
+booktitle = {NIPS},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2016/Ho, Ermon/Generative Adversarial Imitation Learning.pdf:pdf},
+mendeley-groups = {comparisons/learning{\_}from{\_}demonstrations/imitation{\_}learning},
+title = {{Generative Adversarial Imitation Learning}},
+year = {2016}
+}
+@inproceedings{Wulfmeier2015MaximumED,
+abstract = {This paper presents a general framework for exploiting the representational capacity of neural networks to approximate complex, nonlinear reward functions in the context of solving the inverse reinforcement learning (IRL) problem. We show in this context that the Maximum Entropy paradigm for IRL lends itself naturally to the efficient training of deep architectures. At test time, the approach leads to a computational complexity independent of the number of demonstrations, which makes it especially well-suited for applications in life-long learning scenarios. Our approach achieves performance commensurate to the state-of-the-art on existing benchmarks while exceeding on an alternative benchmark based on highly varying reward structures. Finally, we extend the basic architecture - which is equivalent to a simplified subclass of Fully Convolutional Neural Networks (FCNNs) with width one - to include larger convolutions in order to eliminate dependency on precomputed spatial features and work on raw input representations.},
+author = {Wulfmeier, Markus and Ondruska, Peter and Posner, Ingmar},
+booktitle = {ArXiv},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2015/Wulfmeier, Ondruska, Posner/Maximum Entropy Deep Inverse Reinforcement Learning.pdf:pdf},
+mendeley-groups = {comparisons/learning{\_}from{\_}demonstrations/inverseDeepRL},
+title = {{Maximum Entropy Deep Inverse Reinforcement Learning}},
+year = {2015}
+}
+
+@article{Ravichandar2020,
+abstract = {In the context of robotics and automation, learning from demonstration (LfD) is the paradigm in which robots acquire new skills by learning to imitate an expert. The choice of LfD over other robot learning methods is compelling when ideal behavior can be neither easily scripted (as is done in traditional robot programming) nor easily defined as an optimization problem, but can be demonstrated. While there have been multiple surveys of this field in the past, there is a need for a new one given the considerable growth in the number of publications in recent years. This review aims to provide an overview of the collection of machine-learning methods used to enable a robot to learn from and imitate a teacher. We focus on recent advancements in the field and present an updated taxonomy and characterization of existing methods. We also discuss mature and emerging application areas for LfD and highlight the significant challenges that remain to be overcome both in theory and in practice.Expected final online publication date for the Annual Review of Control, Robotics, and Autonomous Systems, Volume 3 is May 3, 2020. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.},
+author = {Ravichandar, Harish and Polydoros, Athanasios S. and Chernova, Sonia and Billard, Aude},
+doi = {10.1146/annurev-control-100819-063206},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2020/Ravichandar et al/Ravichandar et al. - 2020 - Recent Advances in Robot Learning from Demonstration.pdf:pdf},
+issn = {2573-5144},
+journal = {Annual Review of Control, Robotics, and Autonomous Systems},
+mendeley-groups = {comparisons/learning{\_}from{\_}demonstrations},
+month = {may},
+number = {1},
+publisher = {Annual Reviews},
+title = {{Recent Advances in Robot Learning from Demonstration}},
+volume = {3},
+year = {2020}
+}
+
+@inproceedings{Araki2018LearningTP,
+abstract = {We present a framework for combining imitation learning and logical automata and introduce the Logic-based Value Iteration Network (LVIN) model. By appending a ‘logical' dimension to the state space of the environment, LVIN can recover and incorporate the transition matrix of a finite state automaton derived from a Linear Temporal Logic formula into the policy learned through imitation. This approach improves upon the original VIN in several ways: LVIN (1) is capable of learning logic corresponding to long sequences of steps, (2) adapts easily to new specifications, and (3) is amenable to correction after faulty expert demonstrations.},
+author = {Araki, Brandon and Vodrahalli, Kiran and Leech, Thomas and Vasile, Cristian-Ioan and Donahue, M Patricia and Rus, Daniela},
+booktitle = {Infer to Control: NIPS 2018 Workshop on Probabilistic Reinforcement Learning and Structured Control.},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2018/Araki, Rus/Araki et al. - 2018 - Learning to Plan with Logical Automata.pdf:pdf},
+keywords = {lpla,np},
+mendeley-groups = {comparisons/learning{\_}from{\_}demonstrations/inverseDeepRL,comparisons/learning{\_}from{\_}demonstrations/inverseDeepRL/Learning to Plan with Logical Automata},
+mendeley-tags = {lpla,np},
+pages = {7},
+title = {{Learning to Plan with Logical Automata}},
+year = {2018}
+}
+
+@article{Pajarinen2018,
+author = {Pajarinen, J and Neumann, G and Bagnell, J A and Abbeel, P and Peters, J and Osa, Takayuki and Pajarinen, Joni and Neumann, Gerhard and {Andrew Bagnell}, J and Abbeel, Pieter and Peters, Jan},
+doi = {10.1561/2300000053},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2018/Pajarinen et al/Pajarinen et al. - 2018 - An Algorithmic Perspective on Imitation Learning.pdf:pdf},
+journal = {Foundations and Trends {\textregistered} in Robotics},
+mendeley-groups = {comparisons/learning{\_}from{\_}demonstrations},
+number = {2},
+pages = {1--179},
+title = {{An Algorithmic Perspective on Imitation Learning}},
+volume = {7},
+year = {2018}
+}
+
+@misc{rlblogpost,
+author = {Irpan, Alex},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2018/Irpan/Deep Reinforcement Learning Doesn't Work Yet.pdf:pdf},
+URL = {https://www.alexirpan.com/2018/02/14/rl-hard.html},
+mendeley-groups = {comparisons/deepRL},
+title = {{Deep Reinforcement Learning Doesn't Work Yet}},
+year = {2018}
+}
+
+@misc{Hussein2017,
+abstract = {Imitation learning techniques aim to mimic human behavior in a given task. An agent (a learning machine) is trained to perform a task from demonstrations by learning a mapping between observations and actions. The idea of teaching by imitation has been around for many years; however, the field is gaining attention recently due to advances in computing and sensing as well as rising demand for intelligent applications. The paradigm of learning by imitation is gaining popularity because it facilitates teaching complex tasks with minimal expert knowledge of the tasks. Generic imitation learning methods could potentially reduce the problem of teaching a task to that of providing demonstrations, without the need for explicit programming or designing reward functions specific to the task. Modern sensors are able to collect and transmit high volumes of data rapidly, and processors with high computational power allow fast processing that maps the sensory data to actions in a timely manner. This opens the door for many potential AI applications that require real-time perception and reaction such as humanoid robots, self-driving vehicles, human computer interaction, and computer games, to name a few. However, specialized algorithms are needed to effectively and robustly learn models as learning by imitation poses its own set of challenges. In this article, we survey imitation learning methods and present design options in different steps of the learning process. We introduce a background and motivation for the field as well as highlight challenges specific to the imitation problem. Methods for designing and evaluating imitation learning tasks are categorized and reviewed. Special attention is given to learning methods in robotics and games as these domains are the most popular in the literature and provide a wide array of problems and methodologies. We extensively discuss combining imitation learning approaches using different sources and methods, as well as incorporating other motion learning methods to enhance imitation. We also discuss the potential impact on industry, present major applications, and highlight current and future research directions.},
+author = {Hussein, Ahmed and Gaber, Mohamed Medhat and Elyan, Eyad and Jayne, Chrisina},
+booktitle = {ACM Computing Surveys},
+doi = {10.1145/3054912},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2017/Hussein et al/Hussein et al. - 2017 - Imitation learning A survey of learning methods.pdf:pdf},
+issn = {15577341},
+keywords = {Deep learning,Feature representations,Imitation learning,Intelligent agents,Learning from demonstrations,Learning from experience,Reinforcement learning,Robotics,Self-improvement},
+mendeley-groups = {comparisons/learning{\_}from{\_}demonstrations/imitation{\_}learning},
+month = {apr},
+number = {2},
+pages = {1--35},
+publisher = {Association for Computing Machinery},
+title = {{Imitation learning: A survey of learning methods}},
+url = {https://dl.acm.org/doi/10.1145/3054912},
+volume = {50},
+year = {2017}
+}
+
+@inproceedings{NG_IRL,
+author = {Ng, Andrew Y. and Russell, Stuart J.},
+title = {Algorithms for Inverse Reinforcement Learning},
+year = {2000},
+isbn = {1558607072},
+publisher = {Morgan Kaufmann Publishers Inc.},
+address = {San Francisco, CA, USA},
+booktitle = {Proceedings of the Seventeenth International Conference on Machine Learning},
+pages = {663–670},
+numpages = {8},
+series = {ICML ’00}
+}
+
+@book{DMU_Book,
+author = {Kochenderfer, Mykel J. and Amato, Christopher and Chowdhary, Girish and How, Jonathan P. and Reynolds, Hayley J. Davison and Thornton, Jason R. and Torres-Carrasquillo, Pedro A. and \"{U}re, N. Kemal and Vian, John},
+title = {Decision Making Under Uncertainty: Theory and Application},
+year = {2015},
+isbn = {0262029251},
+publisher = {The MIT Press},
+edition = {1st}
+}
+
+@misc{gym_minigrid,
+  author = {Chevalier-Boisvert, Maxime and Willems, Lucas and Pal, Suman},
+  title = {Minimalistic Gridworld Environment for OpenAI Gym},
+  year = {2018},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/maximecb/gym-minigrid}},
+}
+
+@article{PPO2,
+  title={Proximal Policy Optimization Algorithms},
+  author={John Schulman and Filip Wolski and Prafulla Dhariwal and Alec Radford and Oleg Klimov},
+  journal={ArXiv},
+  year={2017},
+  volume={abs/1707.06347}
+}
+
+@techreport{Carr2020,
+abstract = {Recurrent neural networks (RNNs) have emerged as an effective representation of control policies in sequential decision-making problems. However, a major drawback in the application of RNN-based policies is the difficulty in providing formal guarantees on the satisfaction of behavioral specifications, e.g. safety and/or reachability. By integrating techniques from formal methods and machine learning, we propose an approach to automatically extract a finite-state controller (FSC) from an RNN, which, when composed with a finite-state system model, is amenable to existing formal verification tools. Specifically, we introduce an iterative modification to the so-called quantized bottleneck insertion technique to create an FSC as a randomized policy with memory. For the cases in which the resulting FSC fails to satisfy the specification, verification generates diagnostic information. We utilize this information to either adjust the amount of memory in the extracted FSC or perform focused retraining of the RNN. While generally applicable, we detail the resulting iterative procedure in the context of policy synthesis for partially observable Markov decision processes (POMDPs), which is known to be notoriously hard. The numerical experiments show that the proposed approach outperforms traditional POMDP synthesis methods by 3 orders of magnitude within 2{\%} of optimal benchmark values.},
+archivePrefix = {arXiv},
+arxivId = {2002.05615v1},
+author = {Carr, Steven and Jansen, Nils and Topcu, Ufuk},
+booktitle = {ArXiv},
+eprint = {2002.05615v1},
+file = {:Users/nicholasrenninger/Google Drive/Grad School/specification learning/related work/mendeleyCache/2020/Carr, Jansen, Topcu/Carr, Jansen, Topcu - 2020 - Verifiable RNN-Based Policies for POMDPs Under Temporal Logic Constraints.pdf:pdf},
+mendeley-groups = {comparisons/formalPlanning/Verifiable RNN-Based Policies for POMDPs Under Temporal Logic Constraints,comparisons/formalPlanning,comparisons},
+title = {{Verifiable RNN-Based Policies for POMDPs Under Temporal Logic Constraints}},
+url = {https://arxiv.org/pdf/2002.05615.pdf},
+year = {2020}
+}
+@article{nature_q_learning,
+	Abstract = {An artificial agent is developed that learns to play a diverse range of classic Atari 2600 computer games directly from sensory experience, achieving a performance comparable to that of an expert human player; this work paves the way to building general-purpose learning algorithms that bridge the divide between perception and action.},
+	Author = {Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei A. and Veness, Joel and Bellemare, Marc G. and Graves, Alex and Riedmiller, Martin and Fidjeland, Andreas K. and Ostrovski, Georg and Petersen, Stig and Beattie, Charles and Sadik, Amir and Antonoglou, Ioannis and King, Helen and Kumaran, Dharshan and Wierstra, Daan and Legg, Shane and Hassabis, Demis},
+	Da = {2015/02/01},
+	Date-Added = {2020-05-06 17:05:34 -0600},
+	Date-Modified = {2020-05-06 17:05:34 -0600},
+	Doi = {10.1038/nature14236},
+	Id = {Mnih2015},
+	Isbn = {1476-4687},
+	Journal = {Nature},
+	Number = {7540},
+	Pages = {529--533},
+	Title = {Human-level control through deep reinforcement learning},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1038/nature14236},
+	Volume = {518},
+	Year = {2015},
+	Bdsk-Url-1 = {https://doi.org/10.1038/nature14236}
+}
+@misc{stable-baselines,
+  author = {Hill, Ashley and Raffin, Antonin and Ernestus, Maximilian and Gleave, Adam and Kanervisto, Anssi and Traore, Rene and Dhariwal, Prafulla and Hesse, Christopher and Klimov, Oleg and Nichol, Alex and Plappert, Matthias and Radford, Alec and Schulman, John and Sidor, Szymon and Wu, Yuhuai},
+  title = {Stable Baselines},
+  year = {2018},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/hill-a/stable-baselines}},
+}
+@inproceedings{TRPO,
+  title={Trust Region Policy Optimization},
+  author={John Schulman and Sergey Levine and Pieter Abbeel and Michael I. Jordan and Philipp Moritz},
+  booktitle={ICML},
+  year={2015}
 }
